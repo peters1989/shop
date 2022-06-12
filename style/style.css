@@ -21,6 +21,16 @@
 .header__nav{
     background: var(--dark-tem);
 }
+.header__nav-link{
+    color: var(--dark-tem);
+}
+.header__nav-lang-ru{
+    color: #ABABAB;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: var(--N-regular);
+    
+}
 .header__nav-lang, .header__nav-lang:hover {
     color: var(--light-tem);
     line-height: 20px;
@@ -86,7 +96,7 @@
     font-size: 16px;
     margin-right: 9px;
 }
-.header__nav-btn{
+.header__nav-btn, .header__nav-btn:hover{
     background: var(--dark-tem);
     color: var(--light-tem);
     line-height: 19px;
