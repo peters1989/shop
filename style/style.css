@@ -68,3 +68,31 @@
     margin-right: 7px;
     margin-left: 41px;
 }
+.header__logo::before{
+    display: inline-block;
+    content: url(../img/logo.png);
+    margin-right: 143px;
+    margin-top: 18px;
+}
+.header__nav-search, .header__nav-search:hover{
+    margin-right: 0 !important;
+    border: 1px solid #313131;
+    max-width: 630px;
+    width: 100%;
+    
+}.header__nav-icon::before{
+    content: '\f002';
+    color: var(--light-tem);
+    font-size: 16px;
+    margin-right: 9px;
+}
+.header__nav-btn{
+    background: var(--dark-tem);
+    color: var(--light-tem);
+    line-height: 19px;
+    font-size: 14px;
+    font-family: var(--N-regular);
+    max-width: 190px;
+    width: 100%;
+}
+
