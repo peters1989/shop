@@ -1,0 +1,419 @@
+@media(prefers-color-scheme: dark){
+    body{
+        background: var(--dark-tem);
+    }
+    .header__logo::before{
+        content: url(../img/logo-wight.png);
+    }
+    .main__ps-logo{
+        content: url(../img/play-station-wight.png);
+    }
+    .header__content-title, .main__callPone-title, .main-span, .main__laptop-title, .main-title, .main__ps-title, .main__topSaller-title, .main__contentBottom-desk, .main__right-titleBrand, .main__right-price, .main__right-title, .main__right-sistem, .main__vr-desk, .main__vr-title, .main__contentBottom-title,.page__link-icon::before{
+        
+        color: #fff;
+    }
+   
+    .header__content-link, .main__content-bottom, .main-buy{
+        border: #fff solid 1px;
+    }
+    .carousel-indicators .active{
+        background: #fff;
+    }
+    .main-hover:hover{
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+    .main-img{
+        filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+    }
+    .main-icon{
+        content: url(../img/main-icon\ wight.png) !important;
+    }
+    .page-link{
+        color: #fff !important;
+        background: none !important;
+    }
+    .page-item:first-child {
+        border-right: #fff solid 2px;
+    }
+}
+@media(max-width: 1400px){
+    .main__ps-img{
+        width: 100%;
+    }
+    .main__content-spanMin{
+        padding: 0 13px;
+        top: 150px;
+    }
+    .main__content-span{
+        padding: 0 13px;
+    }
+    .main__content-priceAir{
+        line-height: 50px;
+    }
+    .main__contentBottom-img{
+        width: 100%;
+    }
+    .main__contentBottom-title{
+        top: -20px;
+    }
+    .main__contentBottom-desk{
+        top: 55px;
+    }
+    .xbox-button{
+        bottom: 15px;
+    }
+    .main-buy{
+        right:0;
+        left: 0;
+    }
+    .main-item{
+        padding-bottom: 55px;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width: 1202px){
+    .main__content-spanMin{
+        padding: 0 2px;
+        line-height: 40px;
+        font-size: 16px;
+        top: 140px;
+    }
+    .main__content-span{
+        padding: 0 2px;
+        line-height: 40px;
+        font-size: 16px;
+        /* top: 140px; */
+    }
+    .main__content-titleMin, .main__content-titleAir, .main__content-title{
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .main__content-priceMin, .main__content-priceM, .main__content-priceAir, .main__content-price{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .main__content-priceAir{
+        top: 160px;
+    }
+    .main-item {
+        padding-bottom: 120px;
+        margin-bottom: 0px;
+    }
+    .xbox-button{
+        bottom: 5px;
+        left: 20px;
+    }
+    .main__contentBottom-desk{
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .main__contentBottom-title{
+        font-size: 40px;
+    }
+    .nav-link{
+        min-width: 120px;
+        width: 100%;
+    }
+    .main__left-img{
+        min-width:360px;
+        
+        width: 100%;
+    }
+    .main__right-titleBrand{
+        line-height: 55px;
+    }
+    .main__right-price{
+        line-height: 40px;
+    }
+    
+    .main__right-title{
+        line-height: 40px;
+    }
+    .main__vr-title{
+        line-height: 40px;
+        font-size: 45px;
+    }
+    .main__vr-desk{
+        font-size: 22px;
+        top: 67px;
+        right: 49px;
+    }
+
+}
+@media(max-width: 1000px){
+    .main__content-top{
+        grid-template-rows: repeat(4,1fr);
+    } 
+    .main__content-watch, .main__content-Airpods{
+        grid-column: span 4;
+    }
+    .main__content-min{
+        grid-column: span 2;
+
+    }
+    .main__content-spanMin{
+        top: 230px;
+    }
+    .carousel-indicators{
+        bottom: 290px;
+    }
+    .main__ps-title{
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .main__callPone-box, .main__laptop-box, .main__topSaller-box{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    } 
+    .main__callPone, .main__laptop, .main__topSaller{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__topSaller{
+        margin-top: 70px;
+    }
+    .xbox-button{
+        bottom: 9px;
+        padding:3px 7px;
+    }
+    .main__contentBottom-desk{
+        font-size: 16px;
+        line-height: 23px;
+        top: 33px;
+        text-align: center;
+        left:18%;
+        
+    }
+    .main__contentBottom-title{
+        font-size: 30px;
+        left: 27%;
+    }
+    .main-left{
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .main-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__content-bottom{
+        min-width: 190px;
+        width: 100%;
+    }
+    .main__content-bottom{
+        bottom: 0;
+        right: 36%;
+    }
+    .main__vr-title{
+        top: -30px;
+        right: 100px;
+    }
+    .main__vr-desk{
+        top: 19px;
+        right:-100px;
+    }
+}
+@media(max-width:900px){
+    .main-left{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .main__left-list{
+        flex-direction: row !important;
+    } 
+    .main__vr-desk{
+        max-width: 300px;
+        width: 100%;
+        right: 50px;
+    }
+}
+@media(max-width: 800px){
+    .main__content-spanMin{
+        top: 165px;
+    }
+    .main__ps-logo{
+        max-width: 200px;
+        width: 100%;
+    }
+    .main__ps-title{
+        font-size: 25px;
+    }
+    .header__content-title{
+        line-height: 60px;
+        font-size: 40px;
+        margin-bottom: 70px;
+
+    }
+    .carousel-indicators{
+        bottom: 225px;
+    }
+    .header__nav-search{
+        min-width: 0;
+        max-width: 300px !important;
+        width: 100%;
+    }
+    .xbox-button{
+        bottom: -32px ;
+        left: 162px;
+    }
+    .main__contentBottom-desk{
+        left: 6%;
+        top: 10px;
+    }
+    .main__contentBottom-title{
+        left: 22%;
+        top: -42px;
+    }
+    .main-right{
+        margin-bottom: 70px;
+    }
+    .main__vr-title{
+        top: -87px;
+        right: 128px;
+    }
+    .main__vr-desk{
+        top: -40px;
+        right: 94px;
+        text-align: center;
+    }
+    .main__content-bottom{
+        bottom: -30px;
+    }
+}
+@media(max-width:640px){
+    .navbar{
+        justify-content: center;
+    }
+    .header__logo::before{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer__nav-bottom{
+        justify-content: center !important;
+    }
+    .main__content-spanMin{
+        top: 150px;
+    }
+    .main-item{
+        padding-bottom: 12px;
+        margin-bottom: 17px;
+    }
+    .main-title{
+        margin-top: 10px;
+    }
+    .main__contentBottom-desk{
+        max-width: 300px;
+        width: 100%;
+        left: 19%;
+
+    }
+    .main__contentBottom-title{
+        left: 19%;
+    }
+}
+@media(max-width:500px){
+    .main__content-spanMin{
+        top: 125px;
+    }
+    .header__content-title {
+        line-height: 42px;
+        font-size: 33px;
+        margin-bottom: 53px;
+    }
+    .carousel-indicators{
+        bottom: 170px;
+    }
+    .main__content-top {
+        margin-top: 50px;
+    }
+    .main__content-titleAir{
+        top: 110px;
+    }
+    .main__content-priceAir{
+        top: 125px;
+    }
+    .main-page{
+        margin-top: 65px;
+    }
+    .xbox-button{
+        left: 116px;
+        bottom: -52px;
+    }
+    .main__contentBottom-desk{
+        left: 60px;
+        top: -3px;
+    }
+    .main__contentBottom-title{
+        left: 60px;
+        top: -72px;
+    }
+}
+@media(max-width:450px){
+    .main__content-titleMin{
+        max-width: 140px;
+        width: 100%;
+    }
+    .main__ps-logo{
+        max-width: 130px;
+        width: 100%;
+    
+    }
+    .main__ps-left{
+        top: 40px;
+    }
+    .main__ps-title{
+        font-size: 18px;
+    }
+    .main__content-bottom {
+    padding: 9px 20px;
+    }
+    .main__content-spanMin{
+        top: 100px;
+    }
+    .main__callPone-title, .main__laptop-title, .main__topSaller-title{
+        margin-top: 29px;
+        margin-bottom: 20px;
+        line-height: 35px;
+        font-size: 30px;
+    }
+    .main__topSaller-title{
+        margin-top: 52px;
+    }
+    .main__content-priceM {
+        top: 61px;
+    }
+    .xbox-button{
+        left: 102px;
+    }
+    .main__contentBottom-desk{
+        max-width: 250px;
+        width: 100%;
+        top: -30px;
+        left: 67px;
+    }
+    .main__contentBottom-title{
+        font-size: 27px;
+        top: -80px;
+    }
+    .main-xBox{
+        margin-top: 90px;
+    } 
+
+}
+    @media(max-width:400px){
+    .main__contentBottom-desk{
+        top: -32px;
+        left: 47px;
+    }
+    .main__contentBottom-title{
+        left: 39px;
+
+    }
+    .xbox-button{
+        left: 79px;
+    }
+}
+

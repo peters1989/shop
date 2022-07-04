@@ -64,7 +64,7 @@
               </form>
           </nav>
         </div>
-        <div class="container d-flex justify-content-center gap-3">
+        <div class="container d-flex justify-content-center gap-3 flex-wrap">
           <div class="dropdown">
             <a class="header__dropdawn-link" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
               Cell Phones & Tablets    
@@ -253,35 +253,60 @@
     </header>
     <main class="main">
         <div class="container d-flex">
-            <div class="main-left d-flex flex-row-reverse align-items-center">
-                <img src="img/page-3/main-1.png" alt="" class="main__left-img1">
-                <div class="main__left-l d-flex flex-column justify-content-center">
-                    <img src="img/page-3/main-2.png" alt="" class="main__left-img">
-                    <img src="img/page-3/main-3.png" alt="" class="main__left-img">
-                    <img src="img/page-3/main-4.png" alt="" class="main__left-img">
-                </div>
-            </div>
-            <div class="main-right">
-                <h2 class="main__right-titleBrand">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
-                <span class="main__right-price">1300$</span>
-                <h3 class="main__right-title">Product Highlights</h3>
-                <ul class="main__right-list">
-                    <li class="main__right-sistem">128 GB ROM</li>
-                    <li class="main__right-sistem">13.72 cm (5.4 inch) Super Retina XDR Display</li>
-                    <li class="main__right-sistem">12MP + 12MP | 12MP Front Camera</li>
-                    <li class="main__right-sistem">A14 Bionic Chip with Next Generation Neural Engine Processor</li>
-                    <li class="main__right-sistem">Ceramic Shield</li>
-                    <li class="main__right-sistem">IP68 Water Resistance</li>
-                    <li class="main__right-sistem">All Screen OLED Display</li>
-                    <li class="main__right-sistem">The shipment for this product will begin from 14th November 2020</li>
+            <div class="row">
+              <div class="main-left col-lg-6 col-12 d-flex">
+                
+                <ul class="nav main__left-list d-flex flex-column justify-content-center" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                     <a class="nav-link active"  data-bs-toggle="tab" data-bs-target="#home-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                  <a class="nav-link"  data-bs-toggle="tab" data-bs-target="#profile-tab-pane" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                   <a class="nav-link"  data-bs-toggle="tab" data-bs-target="#contact-tab-pane" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</a>
+                  </li>
+ 
                 </ul>
-                <div class="main__right-links d-flex">
-                    <a href="" class="main__content-bottom cart">CART</a>
-                    <a href="" class="main__content-bottom">BUY NOW</a>
+              
+               <div class="tab-content d-flex align-items-center " id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <img src="img/page-3/main-2-0.png" alt="" class="main__left-img">
                 </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  <img src="img/page-3/main-3-0.png" alt="" class="main__left-img">
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  <img src="img/page-3/main-4-0.png" alt="" class="main__left-img">
+                </div>
+               </div>
+              
 
+          </div>
+          <div class="main-right col-lg-6 col-12">
+              <h2 class="main__right-titleBrand">Apple iPhone 12 Pro Max 128GB (Gray)</h2>
+              <span class="main__right-price">1300$</span>
+              <h3 class="main__right-title">Product Highlights</h3>
+              <ul class="main__right-list">
+                  <li class="main__right-sistem">128 GB ROM</li>
+                  <li class="main__right-sistem">13.72 cm (5.4 inch) Super Retina XDR Display</li>
+                  <li class="main__right-sistem">12MP + 12MP | 12MP Front Camera</li>
+                  <li class="main__right-sistem">A14 Bionic Chip with Next Generation Neural Engine Processor</li>
+                  <li class="main__right-sistem">Ceramic Shield</li>
+                  <li class="main__right-sistem">IP68 Water Resistance</li>
+                  <li class="main__right-sistem">All Screen OLED Display</li>
+                  <li class="main__right-sistem">The shipment for this product will begin from 14th November 2020</li>
+              </ul>
+              <div class="main__right-links d-flex">
+                  <a href="" class="main__content-bottom cart">
+                    <span class="fa main__content-bottom-icon"></span>
+                    CART</a>
+                  <a href="" class="main__content-bottom">BUY NOW</a>
+              </div>
+
+          </div>
+          
             </div>
-            
         </div>
         <div class="container">
           <div class="main-vr position-relative">
